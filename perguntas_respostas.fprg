@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="perguntas_respostas"/>
+        <attribute name="authors" value="MARY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-09 06:47:45 "/>
+        <attribute name="created" value="TUFSWTtERVNLVE9QLTdBTjFMN0k7MjAyNS0wMy0wOTsiMDU6MDM6MzEgIjsyNTM1"/>
+        <attribute name="edited" value="TUFSWTtERVNLVE9QLTdBTjFMN0k7MjAyNS0wMy0wOTsiMDY6NDc6NDUgIjsyOzI2NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="resposta" type="String" array="False" size=""/>
+            <declare name="jogarNovamente" type="String" array="False" size=""/>
+            <assign variable="jogarNovamente" expression="&quot;sim&quot;"/>
+            <while expression="jogarNovamente == &quot;sim&quot;">
+                <output expression="&quot;Bem vindo ao jogo Perguntas e Respostas&quot;" newline="True"/>
+                <output expression="&quot;Antes de come&#231;ar, deixe-me esclarecer algumas coisas&quot;" newline="True"/>
+                <output expression="&quot;Responda as perguntas apenas com a, b, c ou d&quot;" newline="True"/>
+                <output expression="&quot;Vamos para a primeira pergunta&quot;" newline="True"/>
+                <output expression="&quot;Qual a capital do Brasil?&quot;" newline="True"/>
+                <output expression="&quot;a) S&#227;o Paulo&quot;" newline="True"/>
+                <output expression="&quot;b) Rio de Janeiro&quot;" newline="True"/>
+                <output expression="&quot;c) Salvador&quot;" newline="True"/>
+                <output expression="&quot;d) Minas Gerais&quot;" newline="True"/>
+                <input variable="resposta"/>
+                <if expression="resposta = &quot;b&quot;">
+                    <then>
+                        <output expression="&quot;Resposta correta!&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Errado! Resposta certa &#233; letra b) Rio de Janeiro&quot;" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;Vamos para a proxima pergunta&quot;" newline="True"/>
+                <output expression="&quot;Qual o maior continente do mundo?&quot;" newline="True"/>
+                <output expression="&quot;a) Africa&quot;" newline="True"/>
+                <output expression="&quot;b) Oceania&quot;" newline="True"/>
+                <output expression="&quot;c) Asia&quot;" newline="True"/>
+                <output expression="&quot;d) Europa&quot;" newline="True"/>
+                <input variable="resposta"/>
+                <if expression="resposta == &quot;c&quot;">
+                    <then>
+                        <output expression="&quot;Resposta correta!&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Errado! Resposta certa &#233; letra c) Asia&quot;" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;Vamos para a proxima pergunta&quot;" newline="True"/>
+                <output expression="&quot;Quantas planetas existem no sistema solar?&quot;" newline="True"/>
+                <output expression="&quot;a) 7&quot;" newline="True"/>
+                <output expression="&quot;b) 9&quot;" newline="True"/>
+                <output expression="&quot;c) 9&quot;" newline="True"/>
+                <output expression="&quot;d) 8&quot;" newline="True"/>
+                <input variable="resposta"/>
+                <if expression="resposta == &quot;d&quot;">
+                    <then>
+                        <output expression="&quot;Resposta correta!&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Errado! Resposta certa &#233; letra d) 8&quot;" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;Vamos para a proxima pergunta&quot;" newline="True"/>
+                <output expression="&quot;Qual &#233; o elemento qu&#237;mico com o maior n&#250;mero at&#244;mico encontrado na natureza?&quot;" newline="True"/>
+                <output expression="&quot;a) R&#225;dio&quot;" newline="True"/>
+                <output expression="&quot;b) Uranio&quot;" newline="True"/>
+                <output expression="&quot;c) Plutoni&#244;&quot;" newline="True"/>
+                <output expression="&quot;d) T&#243;rio&quot;" newline="True"/>
+                <input variable="resposta"/>
+                <if expression="resposta = &quot;b&quot;">
+                    <then>
+                        <output expression="&quot;Resposta correta!&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Errado! Resposta certa &#233; letra b) Uranio&quot;" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;Agora, vamos para a &#250;ltima pergunta&quot;" newline="True"/>
+                <output expression="&quot;Qual &#233; o n&#250;mero aproximado de ossos no corpo humano adulto?&quot;" newline="True"/>
+                <output expression="&quot;a) 206&quot;" newline="True"/>
+                <output expression="&quot;b) 214&quot;" newline="True"/>
+                <output expression="&quot;c) 208&quot;" newline="True"/>
+                <output expression="&quot;d) 210&quot;" newline="True"/>
+                <input variable="resposta"/>
+                <if expression="resposta==&quot;a&quot;">
+                    <then>
+                        <output expression="&quot;Resposta correta!&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Errado! Resposta certa &#233; letra a) 206&quot;" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;Fim do jogo!&quot;" newline="True"/>
+                <output expression="&quot;Deseja continuar jogando?&quot;" newline="True"/>
+                <input variable="jogarNovamente"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
